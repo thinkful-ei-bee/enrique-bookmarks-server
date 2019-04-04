@@ -6,7 +6,7 @@ const helmet = require('helmet')
 const { NODE_ENV } = require('./config')
 const validateBearerToken = require('./validate-bearer-token')
 const errorHandler = require('./error-handler')
-const bookmarksRouter = require('./bookmarks/Bookmarks-router')
+const bookmarkRouter = require('./Bookmarks/bookmark-router')
 
 
 
@@ -29,7 +29,7 @@ app.use(validateBearerToken)
 
 
 // routers handle CRUD work 
-app.use(bookmarksRouter)
+app.use(bookmarkRouter)
 
 
 

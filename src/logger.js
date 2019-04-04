@@ -15,4 +15,5 @@ if (NODE_ENV !== 'production') {
   }))
 }
 
+// gets imported to app.js
 module.exports = logger

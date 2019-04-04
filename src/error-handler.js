@@ -13,4 +13,5 @@ function errorHandler(error, req, res, next) {
   res.status(500).json(response)
 }
 
+//gets imported to app.js
 module.exports = errorHandler

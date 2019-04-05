@@ -1,5 +1,5 @@
 {
-  "name": "express-boilerplate",
+  "name": "bookmarks-server",
   "version": "1.0.0",
   "description": "",
   "main": "src/server.js",
@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eemontemayor/express-boilerplate.git"
+    "url": "git+https://github.com/thinkful-ei-bee/enrique-bookmarks-server.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/eemontemayor/express-boilerplate/issues"
+    "url": "https://github.com/thinkful-ei-bee/enrique-bookmarks-server.git"
   },
-  "homepage": "https://github.com/eemontemayor/express-boilerplate#readme",
+  "homepage": "https://github.com/thinkful-ei-bee/enrique-bookmarks-server.git#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^7.0.0",
